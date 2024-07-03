@@ -1,0 +1,30 @@
+header {
+    background-color:chocolate;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+   
+}
+body{
+    background-color:burlywood;
+}
+
+
+.one {
+    background-color:peru;
+    margin: 1em;
+    border: chocolate;
+    border-radius: 1em;
+    border-width: 100%;
+    font-size: 18px;
+
+}
+
+.two {
+    background-color:peru;
+    margin: 1em;
+    border: chocolate;
+    border-radius: 1em;
+    border-width: 100%;
+    font-size: 18px;
+}

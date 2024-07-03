@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="simple-grid/grid/simple-grid.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Webpage</h1>
+        <div class="city">
+            <div class="cities">
+                <h2>Nkosinathi Msipha</h2>
+                <img src="Nathi.jpg" width="200" alt="Nathi" class="images">
+            </div>
+        </div>
+    </header>
+   
+    <h2 class="heading block">My favourite City</h2>
+    <h3>California</h3>
+    <div class="city">
+        <div class="cities">
+            <img src="California.jpeg" width="300" alt="California">
+            <p>California with sun, sand, surf and mountains, the West Coast state California is known for its many attractions
+                that lure travelers year-round, from famous landmarks such as the Golden Gate Bridge and the Hollywood sign, to
+                the Golden State's rich outdoor opportunities, Palm trees all over the city, this eclectic state makes a
+                well-rounded vacation.</p>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-image: url('Golden Gate Bridge.jpeg');
+            background-size: cover;
+            background-position: left;
+            background-repeat: no-repeat;
+        }
+        .cities {
+            background-color:antiquewhite;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            
+        }
+        @media (max-width: 960px) {
+            .mid-text {
+                float: right !important;
+            }
+        }
+        .mid-text-img {
+            float: left !important;
+        }
+        p {
+            font-size: 15px;
+        }
+    </style>
+
+    <section class="objects">
+        <h2 class="center block">My favourite Subjects</h2>
+        <h3>I studied Advanced Diploma in Accountancy (University of Johannesburg)</h3>
+        <div class="row">
+            <div class="col-4">
+                <h3>Accounting</h3>
+                <p class="col-6-sm font-light">Accounting is my favourite subject because I enjoy working with Numbers</p>
+                <img src="Accounting discipline.jpeg" width="150" alt="" class="col-6-sm">
+            </div>
+            <div class="col-4">
+                <h3>Auditing</h3>
+                <p class="col-6-sm font-light mid-text">Auditing is my 2nd favourite subject because it allows me to be analytical</p>
+                <img src="SAICA.jpg" width="150" alt="" class="col-6-sm mid-text-img">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
